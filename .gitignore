@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Environment variables (passwords, DB strings, JWT secret)
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# Build output
+dist/
+build/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Coverage / cache
+coverage/
+.cache/
